@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: "configserver"
+  profiles:
+    active: native  # 🔥 Asegura que esto esté presente
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: "classpath:/config"  # 🔥 Revisa la sintaxis aquí
+server:
+  port: 8071
+
+
+
