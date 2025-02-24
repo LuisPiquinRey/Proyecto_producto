@@ -2,12 +2,23 @@ spring:
   application:
     name: "configserver"
   profiles:
-    active: native  # 🔥 Asegura que esto esté presente
+    #active: native  # 🔥 Asegura que esto esté presente
+    active: git
   cloud:
     config:
       server:
-        native:
-          search-locations: "classpath:/config"  # 🔥 Revisa la sintaxis aquí
+        #native:
+          #search-locations: "classpath:/config"  # 🔥 Revisa la sintaxis aquí
+        git: 
+            uri: "https://github.com/LuisPiquinRey/Proyecto_producto.git"
+            default-label: main
+            timeout: 5
+            clone-on-start: true
+            force-pull: true
+        
+encrypt:
+    key: "GUAI7OUW3H97Y3O3Q8YQ9YB"
+
 server:
   port: 8071
 
