@@ -1,0 +1,6 @@
+spring:
+    config:
+        activate:
+            on-profile: "prod"
+servidor:
+    message: "Usuario prod - archivo compartido propiamente por el servidor"
