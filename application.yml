@@ -1,0 +1,8 @@
+
+spring:
+    config:
+        activate:
+            on-profile: "qa"
+servidor:
+    message: "Usuario default - archivo compartido propiamente por el servidor"
+
