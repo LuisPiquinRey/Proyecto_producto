@@ -1,6 +1,6 @@
 spring:
     config:
-        profiles:
-            active: qa
+        activate:
+            on-profile: "prod"
 servidor:
     message: "Usuario qa - archivo compartido propiamente por el servidor"
