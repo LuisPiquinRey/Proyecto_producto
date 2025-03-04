@@ -1,6 +1,6 @@
-spring:
-    config:
-        activate:
-            on-profile: "qa"
-servidor:
-    message: "Usuario qa - archivo compartido propiamente por el servidor"
+build:
+    version: "1.0"
+Producto:
+    message: " Archivo QA proporcionado por el repositorio GITHUB a través del SERVIDOR "
+    contact:
+        email: piquin.rey@gmail.com
