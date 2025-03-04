@@ -1,6 +1,6 @@
-spring:
-    config:
-        activate:
-            on-profile: "prod"
-servidor:
-    message: "Usuario prod - archivo compartido propiamente por el servidor"
+build:
+    version: "1.0"
+Producto:
+    message: " Archivo PROD proporcionado por el repositorio GITHUB a través del SERVIDOR "
+    contact:
+        email: piquin.rey@gmail.com
