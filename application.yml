@@ -1,8 +1,6 @@
-
-spring:
-    config:
-        profiles:
-            active: qa
-servidor:
-    message: "Usuario default - archivo compartido propiamente por el servidor"
-
+build:
+    version: "1.0"
+Producto:
+    message: " Archivo DEFAULT proporcionado por el repositorio GITHUB a través del SERVIDOR "
+    contact:
+        email: piquin.rey@gmail.com
